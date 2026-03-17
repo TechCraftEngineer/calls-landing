@@ -25,7 +25,7 @@ export function Navbar() {
                         <Link href="#analytics" className="hover:text-foreground transition-colors">Аналитика</Link>
                     </div>
                     <div className="flex items-center gap-4">
-                        <Link href="/app/" className="text-sm font-medium hover:text-primary transition-colors hidden sm:block">
+                        <Link href="https://app.zvonki.qbsoft.ru" className="text-sm font-medium hover:text-primary transition-colors hidden sm:block">
                             Войти
                         </Link>
                         <button
