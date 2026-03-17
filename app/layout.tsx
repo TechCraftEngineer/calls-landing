@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   authors: [{ name: "QBS Звонки" }],
   creator: "QBS Звонки",
   publisher: "QBS Звонки",
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://qbs-calls.ru'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://zvonki.qbsoft.ru'),
   alternates: {
     canonical: '/',
   },

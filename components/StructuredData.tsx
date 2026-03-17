@@ -29,8 +29,8 @@ export function StructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'QBS Звонки',
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://qbs-calls.ru',
-    logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://qbs-calls.ru'}/logo.png`,
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://zvonki.qbsoft.ru',
+    logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://zvonki.qbsoft.ru'}/logo.png`,
     description: 'Платформа для AI-анализа звонков и транскрибации для бизнеса',
     contactPoint: {
       '@type': 'ContactPoint',
